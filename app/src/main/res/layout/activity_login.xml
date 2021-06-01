@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editEmail"
+        android:id="@+id/editAge"
         android:layout_width="330dp"
         android:layout_height="54dp"
         android:layout_marginStart="15dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editPassword"
+        android:id="@+id/editDepart"
         android:layout_width="330dp"
         android:layout_height="54dp"
         android:layout_marginStart="15dp"
@@ -62,7 +62,7 @@
         android:background="@drawable/bg_eddittext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editAge" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -79,7 +79,7 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editDepart" />
 
     <TextView
         android:id="@+id/textView2"
