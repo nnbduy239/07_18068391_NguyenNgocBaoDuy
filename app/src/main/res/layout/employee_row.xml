@@ -19,7 +19,7 @@
             android:background="@drawable/bg_eddittext">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnUpdate"
                 android:layout_width="85dp"
                 android:layout_height="33dp"
                 android:layout_marginStart="250dp"
@@ -33,7 +33,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnDelete"
                 android:layout_width="85dp"
                 android:layout_height="33dp"
                 android:layout_marginStart="250dp"
@@ -44,7 +44,7 @@
                 android:textColor="@color/white"
                 android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button2" />
+                app:layout_constraintTop_toBottomOf="@+id/btnUpdate" />
 
             <TextView
                 android:id="@+id/tvName"
